@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    /* border: border-box; */
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.container{
+    height: 200vh;
+    width: 450px;
+    background-color: #eff6e0;
+    text-align: center;
+    border-radius: 2rem;
+}
+.nav{
+    position: sticky;
+    top: 0;
+}
+h1{
+    padding: 2rem;
+    font-size: 4rem;
+    background-color: #124559;
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+}
+
+.add-bar{
+    background-color: #01161e;
+    display: flex;
+    height: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    display: flex;
+}
+.add-bar input{
+    width: 50%;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+}
+.add-bar i{
+    
+     margin-left: 1rem;
+     color: white;
+     font-size: 1.5rem;
+     
+}
+.add-btn{
+    display: flex;
+    height: 2.5rem;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    align-items: center;
+    margin-left: 1rem;
+}
+.menu-btn{
+    display: flex;
+    height: 2.5rem;
+    width: 3rem;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.menu-btn:hover{
+    border: 1px white solid;
+}
+.add-btn:hover{
+    border: 1px white solid;
+}
+.task-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.list-div{
+    display: flex;
+    height: 4rem;
+    width: 85%;
+    margin: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    font-size: 2rem;
+    align-items: center;justify-content: space-between;
+    padding-left: 1.5rem;
+}
+.bin-logo{
+    background-color: transparent;
+    color: white;
+    font-size: 1.8rem;
+    border: none;
+    padding-right: 1.5rem;
+}
